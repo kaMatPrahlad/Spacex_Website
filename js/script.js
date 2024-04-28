@@ -41,7 +41,6 @@ function countUp() {
 
       // If counter is less than target, add increment
       if (c < target) {
-        // Round up and set counter value
         counter.innerText = `${Math.ceil(c + increment)}`;
 
         setTimeout(updateCounter, 75);
